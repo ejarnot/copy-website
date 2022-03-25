@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+}
+.chani-logo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    flex-basis: 300px;
+    min-height: 300px;
+
+}
+image{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+}
+.form-wrapper{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-width: 25%;
+}
+label{
+    display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#Name{
+
+}
+button{
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 25%;
+    height: 25px;
+    padding: 0px;
+    margin: 10px 90px 10px 90px;
+    border-radius: 5px;
+}
+
+/* note for Ben: Feeling really overwhelmed and confused on some parts.
+Don't understand why the display:flex things aren't working when I 
+make the screen smaller. Would love to meet up for some more help on CSS maybe on Monday?
+
+https://chart.chaninicholas.com/ Web page I was trying to copy. 
